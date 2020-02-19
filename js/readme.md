@@ -16,4 +16,11 @@
 >>4. some CSS
 >>5. some jQuery
 
+# Project live link:
+[Delani-studion]()
+# Contact Info:
+
+>EMAIL: ngugimuthoni43@gmail.com
+
+
 
