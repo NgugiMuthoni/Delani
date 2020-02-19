@@ -1,0 +1,38 @@
+/*header section*/
+.section1 {
+    padding: 50px;
+    background-color: black;
+    background-image: url(../Delani/assets/backgrounds/h_img.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#mouse-click{
+    animation: bounce 2s infinite;
+}
+
+img#mouse-click{
+    padding-top: 22px;
+    margin-top: 10%;
+    padding-bottom: 30px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.text-section1 {
+    padding-top: 14%;
+    color: white;
+    font-size: 12px;
+}
+
+.mouse-icon {
+    padding-top: 8%;
+}
+
+.text-pad {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
