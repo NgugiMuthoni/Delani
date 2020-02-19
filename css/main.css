@@ -7,8 +7,9 @@
     background-repeat: no-repeat;
 }
 
-#mouse-click{
+#mouse{
     animation: bounce 2s infinite;
+    padding-top: 2%;
 }
 
 img#mouse-click{
@@ -96,4 +97,69 @@ img {
     padding-bottom: 40px;
 }
 
+/* contact us section */
+.section6 {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url(../Delani/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.text-section6 {
+    color: white;
+    font-size: 12px;
+}
+
+.myForm-input {
+    font-size: 12px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+html {
+    font-family: 'Lato', 'Dosi', 'Open Sans', 'San-serif';
+}
+
+form.contact-us {
+    background: transparent;
+    padding-top: 20px;
+}
+ form input[type=text]{
+     width: 22%;
+ }
+ form input[type=email]{
+    width: 22%;
+}
+form.contact-us input,
+form.contact-us textarea,
+div.contact-btn button {
+    margin-bottom: 10px;
+    padding: 7px 5px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+input.contact-email {
+    margin-left: 20px;
+}
+
+div.contact-btn button {
+    padding: 7px 10px;
+    width: 150px;
+    font-weight: bold;
+    transition: border 0.2s;
+    font-size: 1.2rem;
+}
+
+div.contact-btn button:hover {
+    border: 2px solid #fff;
+}
 
