@@ -20,32 +20,21 @@ $(document).ready(function() {
     });
 });
 
-var btn = document.getElementById("myBtn");
-
-// When the user clicks on the button
-function validate() {
-    // Validate form for entry
-    var x = document.forms["myForm"]["contact-name"].value;
-    if (x == "") {
-        alert("Name not entered");
-        return false;
-    }
-    var y = document.forms["myForm"]["contact-email"].value;
-    if (y == "") {
-        alert("Email not entered");
-        return false;
-    }
-    var z = document.forms["myForm"]["contact-message"].value;
-    if (z == "") {
-        alert("You have no message to send");
-        return false;
-    }
-    var person1Input = $("input#contact-name").val();
-    $("span#outputName").append(person1Input);
-
-    $('.toast').toast('show');
-    event.preventDefault();
-}
 
 
+
+$(document).ready(function () {
+    $('#myBtn').click(function () {
+        var Name = $('#contact-name').val();
+        var Email = $('#contact-email').val();
+        var Message = $('#contact-message');
+        // var key ='43ab10333d46e19325f96d210ed40c49-us5';
+        if (Name == '' || Email == '' || Message == '') {
+            alert('Please make sure you have filled in the form correctly!');
+        } else {
+            alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
+        }
+
+    });
+});
 
