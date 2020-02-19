@@ -78,3 +78,13 @@ img {
 .caption {
     font-size: 12px;
 }
+
+/*portfolio section*/
+.section5 {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+
