@@ -36,3 +36,15 @@ img {
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+/*about section*/
+.section2 {
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
+
+.text-section2 {
+    font-size: 12px;
+}
+
