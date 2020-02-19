@@ -60,3 +60,21 @@ img {
     font-size: 14px;
 }
 
+/*what we do*/
+.section4 {
+    padding: 50px;
+}
+
+.h3 {
+    padding-top: 10px;
+}
+
+.table {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.caption {
+    font-size: 12px;
+}
