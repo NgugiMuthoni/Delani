@@ -48,3 +48,15 @@ img {
     font-size: 12px;
 }
 
+/*services*/
+.section3 {
+    padding: 85px;
+    background-image: url(../Delani/assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+}
+
+.text-section3 {
+    color: white;
+    font-size: 14px;
+}
+
