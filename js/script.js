@@ -1,5 +1,5 @@
 //For toggling on WHAT WE DO
-$(document).ready(function() {
+$ (document).ready(function() {
     $(".onCrack1").click(function() {
         $("#click1").toggle();
         $("#magic1").toggle();
@@ -13,3 +13,11 @@ $(document).ready(function() {
         $("#click3").toggle();
     });
 });
+
+$(document).ready(function() {
+    $("div.image-frame").hover(function() {
+        $(".overlay1").addClass("mask flex-center rgba-red-strong");
+    });
+});
+
+

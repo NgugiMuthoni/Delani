@@ -79,6 +79,15 @@ img {
     font-size: 12px;
 }
 
+#magic1,
+#magic2,
+#magic3 {
+    display: none;
+}
+
+.toast {
+    display: none;
+}
 /*portfolio section*/
 .section5 {
     align-content: center;
