@@ -163,3 +163,27 @@ div.contact-btn button:hover {
     border: 2px solid #fff;
 }
 
+/* social icons */
+div.footer-imgs {
+    margin-bottom: 10px;
+}
+
+div.footer-imgs img {
+    margin: 7px 5px;
+}
+
+div.footer-msg p {
+    font-size: 0.7rem;
+}
+
+.footsy {
+    padding-top: 30px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 14px;
+}
+
+
+
