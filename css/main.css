@@ -97,6 +97,11 @@ img {
     padding-bottom: 40px;
 }
 
+.overlay1{
+    padding: 30%;
+    display: none;
+}
+
 /* contact us section */
 .section6 {
     padding-top: 35px;
