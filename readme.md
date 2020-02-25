@@ -17,7 +17,7 @@
 >>5. some jQuery
 
 # Project live link:
-[Delani-studion]()
+[Delani-studion](https://ngugimuthoni.github.io/Delani/)
 # Contact Info:
 
 >EMAIL: ngugimuthoni43@gmail.com
