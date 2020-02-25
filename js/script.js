@@ -16,10 +16,8 @@ $ (document).ready(function() {
 
 
     $("div.image-frame").hover(function() {
-        $(".overlay1").show(function(){
-            $(".overlay1").addClass("mask flex-center rgba-red-strong");
-        })
         
+        $(".overlay1").show().addClass("mask flex-center rgba-red-strong");
     });
 
 
