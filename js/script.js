@@ -14,16 +14,18 @@ $ (document).ready(function() {
     });
 });
 
-$(document).ready(function() {
+
     $("div.image-frame").hover(function() {
-        $(".overlay1").addClass("mask flex-center rgba-red-strong");
+        $(".overlay1").show(function(){
+            $(".overlay1").addClass("mask flex-center rgba-red-strong");
+        })
+        
     });
-});
 
 
 
 
-$(document).ready(function () {
+
     $('#myBtn').click(function () {
         var Name = $('#contact-name').val();
         var Email = $('#contact-email').val();
@@ -35,6 +37,6 @@ $(document).ready(function () {
             alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
         }
 
-    });
+    
 });
 
